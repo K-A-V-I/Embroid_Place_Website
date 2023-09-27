@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+body {
+    background-image: linear-gradient(45deg, rgba(218, 68, 255, 0.6), rgba(218, 68, 255, 0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 60px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #da44ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-button {
+    position: relative;
+    color: #cc00ff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Animation Classes */
+
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeIn {
+    animation-name: animate__fadeIn;
+}
+
+.animate__fadeInUp {
+    animation-name: animate__fadeInUp;
+}
